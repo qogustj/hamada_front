@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+/* 새로 추가된 스타일 */
+.api-response {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #1e2127;
+  border-radius: 5px;
+  max-width: 80%;
+  overflow-x: auto;
+}
+
+.api-response h2 {
+  color: #61dafb;
+  margin-bottom: 10px;
+}
+
+.api-response pre {
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.error-message {
+  color: #ff6b6b;
+  margin-top: 20px;
+}
